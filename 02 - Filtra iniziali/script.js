@@ -9,11 +9,11 @@ function onlyStartsWith(array, char){
   //   return [''] // se l'array fornito come parametro risulta di tipo diverso da 'string' il risultato sara' un array vuoto
   // }
 
-  let newArray = [];
+  const newArray = [];
 
   for (let i = 0; i < array.length; i++){
     //per ogni elemento dell'array in parametro controlla se la lettera inserita come parametro "char" è presente all'index 0;
-    let element = array[i];
+    const element = array[i];
     // console.log('elementi array', element); //stampa dell'elemento in iterazione corrente
 
     //SE presente allora aggiunge la parola al nuovo array
